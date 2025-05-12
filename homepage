@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UTI Pathogen Database</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <div class="max-w-5xl mx-auto px-6 py-10">
+
+    <!-- Website Title -->
+    <h1 class="text-4xl font-bold text-center mb-6 text-blue-800">
+      Urinary Tract Infections (UTI) Pathogen Database
+    </h1>
+
+    <!-- Intro Section -->
+    <section class="mb-10 bg-white p-6 rounded-xl shadow">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-3">What is a UTI?</h2>
+      <p class="text-gray-700">
+        Urinary tract infections (UTIs) are infections that affect the urinary system including the bladder, kidneys, ureters, and urethra. They are commonly caused by bacteria, with *Escherichia coli (E. coli)* being the leading cause.
+      </p>
+    </section>
+
+    <!-- Symptoms -->
+    <section class="mb-10 bg-white p-6 rounded-xl shadow">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-3">Common Symptoms of UTIs</h2>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>Burning sensation during urination</li>
+        <li>Frequent urge to urinate</li>
+        <li>Cloudy or strong-smelling urine</li>
+        <li>Pelvic pain (in women)</li>
+        <li>Fever and chills (if kidney infection is involved)</li>
+      </ul>
+    </section>
+
+    <!-- Pathogen Section -->
+    <section>
+      <h2 class="text-2xl font-semibold text-blue-700 mb-4">Common UTI Pathogens</h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- E. coli card -->
+        <a href="ecoli.html" class="block bg-blue-50 hover:bg-blue-100 p-4 rounded-xl shadow transition">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Escherichia coli (E. coli)</h3>
+          <p class="text-gray-700 text-sm">
+            The most prevalent UTI pathogen, responsible for ~80% of cases. Known for its virulence factors like fimH and papG.
+          </p>
+        </a>
+
+        <!-- You can add more pathogens here later -->
+      </div>
+    </section>
+
+  </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E. coli - UTI Pathogen</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 p-6">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6 text-blue-800">Escherichia coli (E. coli)</h1>
+
+    <section class="mb-6 bg-white p-5 rounded-xl shadow">
+      <h2 class="text-xl font-semibold">Molecular Markers</h2>
+      <p class="text-gray-700 mt-2">fimH, papG, blaCTX-M</p>
+    </section>
+
+    <section class="mb-6 bg-white p-5 rounded-xl shadow">
+      <h2 class="text-xl font-semibold">Immune Response</h2>
+      <p class="text-gray-700 mt-2">Induces IL-6, TNF-alpha, and neutrophil recruitment.</p>
+    </section>
+
+    <section class="mb-6 bg-white p-5 rounded-xl shadow">
+      <h2 class="text-xl font-semibold">Epidemiology</h2>
+      <p class="text-gray-700 mt-2">Most common UTI pathogen (~80% of all cases), especially prevalent in females and recurrent infections.</p>
+    </section>
+
+    <section class="bg-white p-5 rounded-xl shadow">
+      <h2 class="text-xl font-semibold">References</h2>
+      <ul class="list-disc list-inside text-gray-700 mt-2">
+        <li>Smith et al., J Clin Microbiol, 2021</li>
+        <li>CDC UTI Surveillance Report, 2023</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
